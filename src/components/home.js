@@ -1,4 +1,9 @@
 import React, { Component } from 'react';
+import logo from '../css/logobanner.png';
+import image1 from '../css/cover1.png';
+import '../App.css';
+import Taku from "./navbarsignedout.js";
+
 
 class Home extends Component {
   constructor(){
@@ -32,10 +37,27 @@ class Home extends Component {
   
   render() {
     return (
-        <div>
-          <h1>Hello!</h1>
-            <button name="btnsignout" className="btn btn-danger btn-lg" onClick={this.signoutClick}>Sign Out</button>
+      <div className="App">
+        <div className="logoheader">
+          <img src={logo} className="App-logo" alt="logo" />
         </div>
+        <Taku/>
+        <div className="Apphome">
+          <div className="apphomebody">
+            <div className="apphome-header">Keith loves kevin marte</div>
+            <br/>
+            <a className="mangaimage" href="#">
+                <img src={image1} className="mangaimage" alt="image1"/>
+            </a>
+            <br/>
+            <a href="#">Kimetsu</a>
+          </div>
+        </div>
+      </div>
+        // <div>
+        //   <h1>Hello!</h1>
+        //     <button name="btnsignout" className="btn btn-danger btn-lg" onClick={this.signoutClick}>Sign Out</button>
+        // </div>
     );
   }
 }

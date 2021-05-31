@@ -1,5 +1,7 @@
-import logo from './logo.svg';
+import logo from './css/logobanner.png';
+import image1 from './css/cover1.png';
 import './App.css';
+import Taku from "./components/navbar.js";
 import React, { Component } from 'react';
 
 class App extends Component {
@@ -15,24 +17,21 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <header className="App-header">
+        <div className="logoheader">
           <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-          <br/>
-          <button onClick={this.nextPage}>To Page2 Button</button>
-          <br/>
-          <a href="/page2">To Page 2 Link</a>
-        </header>
+        </div>
+        <Taku/>
+        <div className="Apphome">
+          <div className="apphomebody">
+            <div className="apphome-header">Top Manga</div>
+            <br/>
+            <a className="mangaimage" href="#">
+                <img src={image1} className="mangaimage" alt="image1"/>
+            </a>
+            <br/>
+            <a href="#">Kimetsu</a>
+          </div>
+        </div>
       </div>
     );
   }

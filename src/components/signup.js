@@ -18,6 +18,7 @@ class Signup extends Component {
             alert(response["message"]);
             if(response["status"] === 200){
                 $('#signupForm')[0].reset();
+                window.location.replace('/home');
             }
         }
     });
@@ -34,11 +35,15 @@ class Signup extends Component {
   
   render() {
     return (
-        <div className="signup-form">
+        <div>
+          <div class="loginheader">
+            <div class="loginlogo"></div>
+          </div>
+          <div class="signup-form">
             <form id="signupForm" method="post" onSubmit={this.signupSubmit}>
                 <h2>Sign Up</h2>
-                <p>Please fill in this form to create an account!</p>
-                <hr/>
+                <br/>
+                <p>Create an Account:</p>
                 <div className="form-group">
                     <div className="row">
                         <div className="col-xs-6"><input type="text" className="form-control" name="first_name" id="first_name" placeholder="First Name" required="required"/></div>
@@ -46,19 +51,26 @@ class Signup extends Component {
                     </div>        	
                 </div>
                 <div className="form-group">
-                    <input type="email" className="form-control" name="email" id="email" placeholder="Email" required="required"/>
+                  <input type="email" className="form-control" name="email" id="email" placeholder="Email" required="required"/>
                 </div>
                 <div className="form-group">
-                    <input type="password" className="form-control" name="password" id="password" placeholder="Password" required="required"/>
+                  <input type="password" className="form-control" name="password" id="password" placeholder="Password" required="required"/>
                 </div>
                 <div className="form-group">
-                    <input type="password" className="form-control" name="confirm_password" id="confirm_password" placeholder="Confirm Password" required="required"/>
+                  <input type="password" className="form-control" name="confirm_password" id="confirm_password" placeholder="Confirm Password" required="required"/>
                 </div>        
-                <div className="form-group">
-                    <input type="submit" className="btn btn-primary btn-lg" name="btnsignup" id="btnsignup" value="Sign Up"/>
+                <div className="submitform">
+                  <input type="submit" className="btn btn-primary btn-lg" name="btnsignup" id="btnsignup" value="Sign Up"/>
                 </div>
+                <hr/>
+                <div class="loginthrough">Or Sign Up with:
+                  <div class="loginfb"></div>
+                </div>
+                <div className="hint-text">Already have an account? <a href="/login">Log in here.</a></div>
             </form>
-            <div className="hint-text">Already have an account? <a href="/login">Sign in here</a></div>
+            </div>
+            <div class="lee"></div>
+            <div class="footer">© Mangbambam 2021</div>
         </div>
     );
   }

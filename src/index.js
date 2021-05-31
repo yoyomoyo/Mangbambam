@@ -8,6 +8,7 @@ import Page2 from './components/page2Component.js';
 import Login from './components/login.js';
 import Home from './components/home.js';
 import Signup from './components/signup.js';
+import navbar from './components/navbar.js';
 
 ReactDOM.render(
   <div>
@@ -18,6 +19,7 @@ ReactDOM.render(
         <Route path='/login' component={Login} />
         <Route path='/signup' component={Signup} />
         <Route path='/home' component={Home} />
+        <Route path='/navbar' component={navbar} />
       </div>
     </Router>
   </div>,

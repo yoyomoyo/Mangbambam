@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import $ from "jquery";
+import "../css/login.css"
+import "../css/form.css"
 
 class Login extends Component {
   constructor(){
@@ -39,22 +41,32 @@ class Login extends Component {
   
   render() {
     return (
-        <div className="signup-form">
+        <div>
+          <div class="loginheader">
+            <div class="loginlogo"></div>
+          </div>
+          <div class="signup-form">
             <form id="signinForm" method="get" onSubmit={this.signinSubmit}>
-                <h2>Sign In</h2>
-                <p>Please fill in this form to sign in to your account!</p>
+                <h2>Log In</h2>
+                <br/>
+                <div className="form-group">
+                    <p>Account:</p>
+                    <input type="text" className="form-control" name="email" id="email" placeholder="E-mail" required="required"/>
+                </div>
+                <div className="form-group">
+                    <p>Password:</p>
+                    <input type="password" className="form-control" name="password" id="password" placeholder="Type Password here" required="required"/>
+                </div>
+                <div class="submitform">
+                    <input type="submit" name="btnsignin" className="btn btn-primary btn-lg" value="Log In"/>
+                </div>
                 <hr/>
-                <div className="form-group">
-                    <input type="email" className="form-control" name="email" id="email" placeholder="Email" required="required"/>
-                </div>
-                <div className="form-group">
-                    <input type="password" className="form-control" name="password" id="password" placeholder="Password" required="required"/>
-                </div>
-                <div className="form-group">
-                    <input type="submit" name="btnsignin" className="btn btn-primary btn-lg" value="Sign In"/>
-                </div>
+                <div class="loginthrough">Or Log In with:</div>
+                <div class="hint-text">Don't have an account? <a href="/signup">Sign up here.</a></div>
             </form>
-            <div className="hint-text">Don't have an account? <a href="/signup">Sign up here</a></div>
+            </div>
+            <div class="lee"></div>
+            <div class="footer">© Mangbambam 2021</div>
         </div>
     );
   }

@@ -1,0 +1,55 @@
+
+.loginheader{
+    position: relative;
+    padding-top: 10%;
+    height: 10%;
+    width: 100%;
+    background-color: #9867C5;
+}
+
+.loginlogo{
+    position: absolute;
+    height: 100%;
+    width: 50%;
+    background-image: url(./logobanner.png);
+    background-size: 50%;
+    background-repeat: no-repeat;
+    left: 35.5%;
+    bottom: -30%;
+}
+
+.footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #9867C5;
+    color: black;
+    text-align: center;
+    height: 17px;
+    font-size: small;
+}
+
+.lee{
+    position: absolute;
+    background-image: url(./lee.png);
+    background-repeat: no-repeat;
+    width: 30%;
+    height: 70%;
+    background-size: 100%;
+    top: 59.6%;
+}
+
+
+/* .loginbutton {
+    position:absolute;
+    background-image: url(./submit.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    cursor: pointer;
+    width: 60px;
+    height: 60px;
+    border-radius: 20px;
+    left: 45%;
+    bottom: 15%;
+} */
