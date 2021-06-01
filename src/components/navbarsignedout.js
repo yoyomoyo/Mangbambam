@@ -28,7 +28,7 @@ class navbar extends Component {
                     <a href="/mangalist-1">MANGA LIST</a>
                     
                     <div class="search-container">
-                        <form action="/action_page.php">
+                        <form action="/Kimetsu-No-Yaiba-1">
                             <input type="text" placeholder="Find a title..." name="search"/>
                                 
                         </form>

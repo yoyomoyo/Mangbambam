@@ -71,7 +71,7 @@ class mangapage extends Component {
                   <th>Uploaded</th>
                 </tr>
                 <tr>
-                  <td><a href="url">Chapter 205.5: Special One-Shot</a></td>
+                  <td><a href="#">Chapter 205.5: Special One-Shot</a></td>
                   <td>Dec 4, 2020</td>
                 </tr>
                 <tr>
