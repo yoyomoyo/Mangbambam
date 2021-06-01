@@ -6,12 +6,12 @@ import "../css/form.css"
 class Login extends Component {
   constructor(){
     super();
-    this.signinSubmit = this.signinSubmit.bind(this);
+    this.signinSubmit = this.loginSubmit.bind(this);
   }
 
-  signinSubmit(e){
+  loginSubmit(e){
     var xhttp = new XMLHttpRequest();
-    var url = "http://localhost/my-react-app/src/php/signin_action.php";
+    var url = "http://localhost/my-react-app/src/php/login_action.php";
     var data = $("#signinForm").serialize();
     var urlData = url+"?"+data;
     xhttp.open("GET", urlData, true);
@@ -21,8 +21,7 @@ class Login extends Component {
             var res = JSON.parse(this.responseText);
             if(res["status"] === 200){
                 $('#signinForm')[0].reset();
-                window.location.replace('/home'); //replaces the current location
-                //window.location = '../public/home.php'; //navigates to another location
+                window.location.replace('/home'); 
             }else{
                 alert(res["message"]);
             }
