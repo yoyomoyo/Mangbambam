@@ -1,0 +1,93 @@
+.mangalist {
+    background-color: white;
+}
+
+.logoheaderlist{
+    text-align: center      ;
+    width: 100%;
+    background-color: #9867C5;
+  }
+  
+  .App-logolist {
+    height: 80px;
+    pointer-events: none;
+    background-color: #9867C5;
+  }
+  
+  .Apphomelist {
+    background-color: white;
+    flex-direction: column;
+    color: white;
+  }
+  
+  .apphomebodymlist{
+    padding: 2%;
+    border: 1px solid black;
+    margin: 1%;
+    color: black;
+    background-color: #9867c50e;
+  }
+  
+  
+  .apphome-headerlist{
+    font-size: xx-large;
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-bottom: 3%;
+  }
+  
+  .App-link {
+    color: #61dafb;
+  }
+
+  .list1 {
+    line-height:25px;
+    margin-left: 0%;
+    display: inline-block;
+    *display:inline;
+    zoom: 1
+  }
+  li{
+    list-style-type: circle;
+  }
+  .list2{
+    line-height:25px;
+    margin-left: 20%;
+    display: inline-block;
+    *display: inline;
+    zoom: 1
+  }
+
+  .list3{
+    line-height:25px;
+    margin-left: 20%;
+    display: inline-block;
+    *display: inline;
+    zoom: 1  
+  }
+
+
+  .pagination {
+    display: inline-block;
+  }
+ 
+  .pagination a {
+    color: #9867C5;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+  }
+
+
+  .pagination a.active {
+    background-color: #9867C5;
+    color: white;
+    border-radius: 5px;
+  }
+  
+  .pagination a:hover:not(.active) {
+    background-color: #ddd;
+    border-radius: 5px;
+  }
+
+  

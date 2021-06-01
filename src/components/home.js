@@ -1,9 +1,17 @@
 import React, { Component } from 'react';
 import logo from '../css/logobanner.png';
 import image1 from '../css/cover1.png';
+import image2 from '../css/cover2.png';
+import image3 from '../css/cover3.jpg';
+import image4 from '../css/cover4.png';
+import image5 from '../css/cover5.png';
 import '../App.css';
 import Taku from "./navbarsignedout.js";
 
+
+// USER LOGGED IN
+// USER LOGGED IN
+// USER LOGGED IN
 
 class Home extends Component {
   constructor(){
@@ -44,20 +52,99 @@ class Home extends Component {
         <Taku/>
         <div className="Apphome">
           <div className="apphomebody">
-            <div className="apphome-header">Keith loves kevin marte</div>
+            <div className="apphome-header">TOP MANGA</div>
             <br/>
-            <a className="mangaimage" href="#">
-                <img src={image1} className="mangaimage" alt="image1"/>
-            </a>
+            <div class="row">
+              <div class="column">
+                <a className="mangaimage" href="/Kimetsu-No-Yaiba-1">
+                  <img src={image1} className="mangaimage" alt="image1"/>
+                </a>
+                <div class="manganame">
+                  <a href="/Kimetsu-No-Yaiba-1">Kimetsu no Yaiba</a>
+                </div>
+              </div>
+              <div class="column">
+                <a className="mangaimage" href="#">
+                  <img src={image2} className="mangaimage" alt="image2"/>
+                </a>
+                <div class="manganame">
+                  <a href="#">Jujutsu no Kaisen</a>
+                </div>
+              </div>
+              <div class="column">
+                <a className="mangaimage" href="#">
+                  <img src={image3} className="mangaimage" alt="image3"/>
+                </a>
+                <div class="manganame">
+                  <a href="#">Boku no Hero Academia</a>
+                </div>
+              </div>
+              <div class="column">
+                <a className="mangaimage" href="#">
+                  <img src={image4} className="mangaimage" alt="image4"/>
+                </a>
+                <div class="manganame">
+                  <a href="#">One Piece</a>
+                </div>
+              </div>
+              <div class="column">
+                <a className="mangaimage" href="#">
+                  <img src={image5} className="mangaimage" alt="image5"/>
+                </a>
+                <div class="manganame">
+                  <a href="#">The Promised Neverland</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="apphomebody">
+            <div className="apphome-header">LATEST RELEASE</div>
             <br/>
-            <a href="#">Kimetsu</a>
+            <div class="row">
+              <div class="column">
+                <a className="mangaimage" href="#">
+                  <img src={image1} className="mangaimage" alt="image1"/>
+                </a>
+                <div class="manganame">
+                  <a href="#">Kimetsu no Yaiba</a>
+                </div>
+              </div>
+              <div class="column">
+                <a className="mangaimage" href="#">
+                  <img src={image2} className="mangaimage" alt="image2"/>
+                </a>
+                <div class="manganame">
+                  <a href="#">Jujutsu no Kaisen</a>
+                </div>
+              </div>
+              <div class="column">
+                <a className="mangaimage" href="#">
+                  <img src={image3} className="mangaimage" alt="image3"/>
+                </a>
+                <div class="manganame">
+                  <a href="#">Boku no Hero Academia</a>
+                </div>
+              </div>
+              <div class="column">
+                <a className="mangaimage" href="#">
+                  <img src={image4} className="mangaimage" alt="image4"/>
+                </a>
+                <div class="manganame">
+                  <a href="#">One Piece</a>
+                </div>
+              </div>
+              <div class="column">
+                <a className="mangaimage" href="#">
+                  <img src={image5} className="mangaimage" alt="image5"/>
+                </a>
+                <div class="manganame">
+                  <a href="#">The Promised Neverland</a>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
-        // <div>
-        //   <h1>Hello!</h1>
-        //     <button name="btnsignout" className="btn btn-danger btn-lg" onClick={this.signoutClick}>Sign Out</button>
-        // </div>
     );
   }
 }

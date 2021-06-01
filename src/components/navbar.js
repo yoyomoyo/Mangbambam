@@ -23,12 +23,12 @@ class navbar extends Component {
         return(
             <div>
                 <div class="topnav">
-                    <a href="#featured">FEATURED</a>
+                    <a href="/">FEATURED</a>
                     <a href="#updates">UPDATES</a>
-                    <a href="#mangalist">MANGALIST</a>
+                    <a href="/mangalist-0">MANGA LIST</a>
                     
                     <div class="search-container">
-                        <form action="/action_page.php">
+                        <form action="/Kimetsu-No-Yaiba-0">
                             <input type="text" placeholder="Find a title..." name="search"/>
                                 
                         </form>

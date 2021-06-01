@@ -61,7 +61,6 @@ class Login extends Component {
                     <input type="submit" name="btnsignin" className="btn btn-primary btn-lg" value="Log In"/>
                 </div>
                 <hr/>
-                <div class="loginthrough">Or Log In with:</div>
                 <div class="hint-text">Don't have an account? <a href="/signup">Sign up here.</a></div>
             </form>
             </div>
