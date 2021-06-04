@@ -4,6 +4,13 @@
 3. as for the php database enable apache and sql in xampp and import the .sql file in your sample.db
 4. This project was made with the help of my-react-app
 
+#  Tabs you make click are:
+1. Featured tab
+2. Mangalist tab
+3. Log in tab
+4. kimetsu no yaiba manga
+5. note that search bar does not hold any database, anything you type will lead to kimetsu no yaiba
+
 
 
 
