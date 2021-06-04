@@ -1,3 +1,12 @@
+How to Run this Project:
+1. In the VS code Terminal enter npm install
+2. after installation enter npm start
+3. as for the php database enable apache and sql in xampp and import the .sql file in your sample.db
+4. This project was made with the help of my-react-app
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
