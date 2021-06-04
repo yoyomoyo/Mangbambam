@@ -1,3 +1,17 @@
+# How to Run this Project:
+1. In the VS code Terminal enter npm install
+2. after installation enter npm start
+3. as for the php database enable apache and sql in xampp and import the .sql file in your sample.db
+4. This project was made with the help of my-react-app
+
+#  Tabs you make click are:
+1. Featured tab
+2. Mangalist tab
+3. Log in tab
+4. kimetsu no yaiba manga
+5. note that search bar does not hold any database, anything you type will lead to kimetsu no yaiba
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
