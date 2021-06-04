@@ -12,11 +12,6 @@
 5. note that search bar does not hold any database, anything you type will lead to kimetsu no yaiba
 
 
-<<<<<<< HEAD
-=======
-
-
->>>>>>> 783dc46543ff3d04c44d2d561425a65c6b211219
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
