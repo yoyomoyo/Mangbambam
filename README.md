@@ -3,7 +3,7 @@ How to Run this Project:
 2. after installation enter npm start
 3. as for the php database enable apache and sql in xampp and import the .sql file in your sample.db
 4. This project was made with the help of my-react-app
-
+############################################################
 
 
 
