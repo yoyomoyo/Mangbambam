@@ -24,8 +24,8 @@ class navbar extends Component {
             <div>
                 <div class="topnav">
                     <a href="/home">FEATURED</a>
-                    <a href="#updates">UPDATES</a>
                     <a href="/mangalist-1">MANGA LIST</a>
+                    <a href="/faves">FAVORITES</a>
                     
                     <div class="search-container">
                         <form action="/Kimetsu-No-Yaiba-1">

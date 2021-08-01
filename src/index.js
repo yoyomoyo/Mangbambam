@@ -12,6 +12,7 @@ import mangapage from './components/mangapage.js';
 import mangapageOUT from './components/mangapageOUT.js';
 import mangalist from './components/mangalist.js';
 import mangalistOUT from './components/mangalistOUT.js';
+import faves from './components/faves.js';
 
 ReactDOM.render(
   <div>
@@ -21,6 +22,7 @@ ReactDOM.render(
         <Route path='/login' component={Login} />
         <Route path='/signup' component={Signup} />
         <Route path='/home' component={Home} />
+        <Route path='/faves' component={faves} />
         <Route path='/navbar' component={navbar} />
         <Route path='/Kimetsu-No-Yaiba-1' component={mangapage} />
         <Route path='/Kimetsu-No-Yaiba-0' component={mangapageOUT} />

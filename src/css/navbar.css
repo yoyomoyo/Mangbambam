@@ -21,8 +21,7 @@
   
 .search-container {
     float: left;
-    margin-left: 14.5%;
-    margin-right: 10%;
+    margin-left: 20%;
     width: 50%;
     color: black;
   }
@@ -56,6 +55,7 @@
     .logind {
       float: none;
       right: 0;
+      margin-left: 5%;
       display: block;
       
     }
